@@ -1,0 +1,45 @@
+/* --- RESETEO BÁSICO --- */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* --- CABECERA PRINCIPAL --- */
+.marvel-header {
+  background-color: #ED1D24; /* Rojo Marvel clásico */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* --- LOGO --- */
+.marvel-header .logo {
+  height: 60px;
+  width: auto;
+}
+
+/* --- MENÚ DE NAVEGACIÓN --- */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- ENLACES DEL NAV --- */
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Arial Black", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+  color: #FFD700; /* Dorado suave */
+  transform: scale(1.1); /* Un toque de movimiento */
+}
